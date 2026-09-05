@@ -32,19 +32,17 @@ Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
 in chapters 12--14"). Three dots ... will be converted to an ellipsis.
 Unicode is supported. ☺
 
-This is example embed image from another site:
+This is example embed image in public directory:
 
-![example image](https://filepicker-images.genius.com/jlz3qkbiyil)
+![Example image](/media/images/example.jpg)
 
-> Source: [Rokudenashi - One Voice](https://www.youtube.com/watch?v=5GUaMOpfmr8&list=RD5GUaMOpfmr8&start_radio=1)
+> Image source: [Source](https://www.pixiv.net/en/artworks/149301402)
 
 ```markdown
-![image description](image-url)
+![image description](/media/images/<filename>)
 ```
 
-Or use image from public directory like:
-
-![example image2](/kukuru/media/images/banner.webp)
+Or use image from another site using url. 
 
 ## An h2 header
 

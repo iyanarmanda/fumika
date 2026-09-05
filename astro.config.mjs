@@ -33,8 +33,8 @@ import { remarkRuby } from "./src/plugins/remark-ruby.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://iyanarmanda.github.io/",
-	base: "/kukuru",
+	site: "https://fumika-demo.netlify.app",
+	base: "/",
 	integrations: [
 		swup({
 			theme: false,

@@ -1,15 +1,15 @@
 ---
-title: Kukuru のシンプルガイド (ja)
+title: Fumika のシンプルガイド (ja)
 published: 2024-04-01
 description: "このブログテンプレートの使い方。"
-image: "./cover.webp"
-tags: ["Kukuru", "Blogging", "Customization"]
+image: "./cover.jpg"
+tags: ["Fumika", "Blogging", "Customization"]
 category: Guides
-ogImage: "/media/images/guide-cover.webp"
+ogImage: "/media/images/guide-cover.jpg"
 draft: false
 ---
 
-> カバー画像の出典: [出典](https://www.pixiv.net/en/artworks/93582894)
+> カバー画像の出典: [出典](https://www.pixiv.net/en/artworks/137505032)
 
 このブログテンプレートは [Astro](https://astro.build/) で構築されています。このガイドで言及されていない内容については、[Astro ドキュメント](https://docs.astro.build/) を参照してください。
 
@@ -49,3 +49,4 @@ src/content/posts/
     ├── cover.webp
     └── index.md
 ```
+

@@ -10,7 +10,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Kukuru",
+	title: "Fumika",
 	subtitle: "Demo Site",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	supportedLangs: [], // Use all supported language if empty. It can be sorted by array order
@@ -24,8 +24,8 @@ export const siteConfig: SiteConfig = {
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
-			text: "白い砂のアクアトープ / Shiroi Suna no Aquatope", // Credit text to be displayed
-			url: "https://www.pixiv.net/en/artworks/91167513", // (Optional) URL link to the original artwork or artist's page
+			text: "畑乃おいも / Hatano Oimo", // Credit text to be displayed
+			url: "https://www.pixiv.net/en/artworks/124171254", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -42,7 +42,7 @@ export const siteConfig: SiteConfig = {
 	],
 	ogImage: {
 		useDefault: true,
-		defaultSrc: "/media/images/banner.webp",
+		defaultSrc: "/media/images/banner.jpg",
 	},
 };
 
@@ -54,15 +54,15 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Friends,
 		{
 			name: "GitHub",
-			url: "https://github.com/iyanarmanda/kukuru", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/iyanarmanda/fumika", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Kukuru Misakino",
+	avatar: "assets/images/demo-avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "Fumika",
 	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 	links: [
 		{
@@ -80,7 +80,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/iyanarmanda/kukuru",
+			url: "https://github.com/iyanarmanda/fumika",
 		},
 	],
 };
@@ -100,7 +100,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 // Check https://giscus.app/ to get repoId and categoryId
 export const commentConfig: CommentConfig = {
 	giscus: {
-		repo: "iyanarmanda/kukuru",
+		repo: "iyanarmanda/fumika",
 		repoId: "R_kgDOTQYphQ",
 		category: "General", // Choose "Announcements" for prevent visitor leave a comment on GitHub directly
 		categoryId: "DIC_kwDOTQYphc4DBG8B",
