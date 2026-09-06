@@ -83,6 +83,19 @@ This is a note with a custom title.
 > The GitHub syntax is also supported.
 ```
 
+### Spoiler
+
+You can add spoilers to your text. The text also supports **Markdown** syntax.
+
+The content :spoiler[is hidden **ayyy**]!
+
+```markdown
+The content :spoiler[is hidden **ayyy**]!
+
+```
+
+## Other Features
+
 ### Ruby Text
 
 Add small characters above the text. For example:
@@ -100,16 +113,6 @@ He is a {rookie}^(beginner) in this baseball team.
 ```
 
 :::warning
-Ruby Text not supported on **post title** and **TOC**
+Ruby Text not supported on **Frontmatter Post** and **TOC**
 :::
 
-### Spoiler
-
-You can add spoilers to your text. The text also supports **Markdown** syntax.
-
-The content :spoiler[is hidden **ayyy**]!
-
-```markdown
-The content :spoiler[is hidden **ayyy**]!
-
-```
