@@ -22,8 +22,6 @@ enum I18nKey {
 	postCount = "postCount",
 	postsCount = "postsCount",
 
-	themeColor = "themeColor",
-
 	more = "more",
 
 	author = "author",

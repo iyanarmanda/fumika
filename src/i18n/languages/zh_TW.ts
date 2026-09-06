@@ -25,8 +25,6 @@ export const zh_TW: Translation = {
 	[Key.postCount]: "篇文章",
 	[Key.postsCount]: "篇文章",
 
-	[Key.themeColor]: "主題色",
-
 	[Key.more]: "更多",
 
 	[Key.author]: "作者",

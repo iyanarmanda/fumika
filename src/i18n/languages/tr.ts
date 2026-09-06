@@ -25,8 +25,6 @@ export const tr: Translation = {
 	[Key.postCount]: "gönderi",
 	[Key.postsCount]: "gönderiler",
 
-	[Key.themeColor]: "Tema Rengi",
-
 	[Key.more]: "Daha Fazla",
 
 	[Key.author]: "Yazar",

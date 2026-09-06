@@ -25,8 +25,6 @@ export const fa: Translation = {
 	[Key.postCount]: "مقاله",
 	[Key.postsCount]: "مقالات",
 
-	[Key.themeColor]: "رنگ قالب",
-
 	[Key.more]: "بیشتر",
 
 	[Key.author]: "نویسنده",
