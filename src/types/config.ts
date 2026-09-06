@@ -162,4 +162,9 @@ export type AnalyticsConfig = {
 	umami?: null;
 };
 
+export type DeployConfig = {
+  siteUrl: string;
+  baseUrl: string;
+}
+
 export type SupportedLang = (typeof ALL_LANGUAGES)[number];

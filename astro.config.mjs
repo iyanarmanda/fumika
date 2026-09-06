@@ -17,7 +17,7 @@ import remarkDirective from "remark-directive"; /* Handle directives */
 import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives";
 import remarkMath from "remark-math";
 import remarkSectionize from "remark-sectionize";
-import { expressiveCodeConfig } from "./src/config.ts";
+import { deployConfig, expressiveCodeConfig } from "./src/config.ts";
 import I18nKey from "./src/i18n/i18nKey.ts";
 import { i18n } from "./src/i18n/translation.ts";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
@@ -33,8 +33,8 @@ import { remarkRuby } from "./src/plugins/remark-ruby.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fumika-demo.netlify.app",
-	base: "/",
+	site: deployConfig.siteUrl,
+	base: deployConfig.baseUrl,
 	integrations: [
 		swup({
 			theme: false,
