@@ -3,10 +3,9 @@ import { siteConfig } from "../config";
 
 export const PAGE_SIZE = 8;
 
-export const LIGHT_MODE = "light",
-	DARK_MODE = "dark",
-	AUTO_MODE = "auto";
-export const DEFAULT_THEME: LIGHT_DARK_MODE = AUTO_MODE;
+export const LIGHT_MODE = "light";
+export const DARK_MODE = "dark";
+export const DEFAULT_MODE: LIGHT_DARK_MODE = siteConfig.mode === "light" ? LIGHT_MODE : DARK_MODE;
 
 // Banner height unit: vh
 export const BANNER_HEIGHT = 35;

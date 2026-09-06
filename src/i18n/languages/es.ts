@@ -27,10 +27,6 @@ export const es: Translation = {
 
 	[Key.themeColor]: "Color del tema",
 
-	[Key.lightMode]: "Claro",
-	[Key.darkMode]: "Oscuro",
-	[Key.systemMode]: "Sistema",
-
 	[Key.more]: "Más",
 
 	[Key.author]: "Autor",

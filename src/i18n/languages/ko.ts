@@ -27,10 +27,6 @@ export const ko: Translation = {
 
 	[Key.themeColor]: "테마 색상",
 
-	[Key.lightMode]: "밝은 모드",
-	[Key.darkMode]: "어두운 모드",
-	[Key.systemMode]: "시스템 모드",
-
 	[Key.more]: "더 보기",
 
 	[Key.author]: "저자",

@@ -27,10 +27,6 @@ export const tr: Translation = {
 
 	[Key.themeColor]: "Tema Rengi",
 
-	[Key.lightMode]: "Aydınlık",
-	[Key.darkMode]: "Koyu",
-	[Key.systemMode]: "Sistem",
-
 	[Key.more]: "Daha Fazla",
 
 	[Key.author]: "Yazar",
