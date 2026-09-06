@@ -10,7 +10,7 @@ interface Props {
 	lang?: string;
 }
 
-const { class: className, headings, lang } = Astro.props;
+const { class: className, lang } = Astro.props;
 ---
 <div id="sidebar" class:list={[className, "w-full"]}>
     <div class="flex flex-col w-full gap-4 mb-4">
