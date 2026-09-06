@@ -25,8 +25,6 @@ export const ko: Translation = {
 	[Key.postCount]: "게시물",
 	[Key.postsCount]: "게시물",
 
-	[Key.themeColor]: "테마 색상",
-
 	[Key.more]: "더 보기",
 
 	[Key.author]: "저자",

@@ -28,11 +28,10 @@ export type SiteConfig = {
 	supportedLangs: ConfigLang[];
 	// rtl: boolean;  // TODO make it work without destryoing layouts
 
-	themeColor: {
+	theme: {
 		hue: number;
-		fixed: boolean;
+    mode: 'light' | 'dark';
 	};
-  mode: 'light' | 'dark';
 	banner: {
 		enable: boolean;
 		src: string;

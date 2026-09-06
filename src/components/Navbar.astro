@@ -54,7 +54,7 @@ let links: NavBarLink[] = navBarConfig.links.map(
         <div class="flex">
             <!--<SearchPanel client:load>-->
             <Search client:only="svelte" lang={lang}></Search>
-            {!siteConfig.themeColor.fixed && (
+            {!import.meta.env.PROD && (
                     <button aria-label="Display Settings" class="btn-plain scale-animation rounded-lg h-11 w-11 active:scale-90" id="display-settings-switch">
                         <Icon name="material-symbols:palette-outline" class="text-[1.25rem]"></Icon>
                     </button>
@@ -66,8 +66,8 @@ let links: NavBarLink[] = navBarConfig.links.map(
             </button>
         </div>
         <NavMenuPanel links={links} lang={lang} />
-        {!siteConfig.themeColor.fixed && (
-            <DisplaySettings client:only="svelte" lang={lang} />
+        {!import.meta.env.PROD && (
+            <DisplaySettings client:only="svelte" />
         )}
     </div>
 </div>

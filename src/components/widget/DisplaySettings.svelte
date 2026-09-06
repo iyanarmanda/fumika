@@ -1,19 +1,12 @@
 <script lang="ts">
-import I18nKey from "@i18n/i18nKey";
-import { i18n } from "@i18n/translation";
 import Icon from "@iconify/svelte";
-import { getDefaultHue, getHue, setHue } from "@utils/setting-utils";
+import { getHue, setHue } from "@utils/setting-utils";
 
-interface Props {
-	lang?: string;
-}
-let { lang }: Props = $props();
-
-let hue = $state(getHue());
-const defaultHue = getDefaultHue();
+let initialHue = getHue();
+let hue = $state(initialHue);
 
 function resetHue() {
-	hue = getDefaultHue();
+	hue = initialHue;
 }
 
 $effect(() => {
@@ -29,9 +22,9 @@ $effect(() => {
             before:w-1 before:h-4 before:rounded-md before:bg-(--primary)
             before:absolute before:-left-3 before:top-[0.33rem]"
         >
-            {i18n(I18nKey.themeColor, lang)}
+            Theme Color (preview)
             <button aria-label="Reset to Default" class="btn-regular w-7 h-7 rounded-md  active:scale-90 will-change-transform"
-                    class:opacity-0={hue === defaultHue} class:pointer-events-none={hue === defaultHue} onclick={resetHue}>
+                    class:opacity-0={hue === initialHue} class:pointer-events-none={hue === initialHue} onclick={resetHue}>
                 <div class="text-(--btn-content)">
                     <Icon icon="fa6-solid:arrow-rotate-left" class="text-[0.875rem]"></Icon>
                 </div>
@@ -45,7 +38,7 @@ $effect(() => {
         </div>
     </div>
     <div class="w-full h-6 px-1 bg-[oklch(0.80_0.10_0)] dark:bg-[oklch(0.70_0.10_0)] rounded select-none">
-        <input aria-label={i18n(I18nKey.themeColor, lang)} type="range" min="0" max="360" bind:value={hue}
+        <input aria-label="theme-color" type="range" min="0" max="360" bind:value={hue}
                class="slider" id="colorSlider" step="5" style="width: 100%">
     </div>
 </div>
