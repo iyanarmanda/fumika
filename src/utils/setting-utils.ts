@@ -1,7 +1,7 @@
 import {
 	DARK_MODE,
+	DEFAULT_HUE,
 	DEFAULT_MODE,
-  DEFAULT_HUE,
 	LIGHT_MODE,
 } from "@constants/constants.ts";
 import { expressiveCodeConfig } from "@/config";

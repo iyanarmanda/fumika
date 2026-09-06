@@ -1,8 +1,8 @@
 import type {
 	AnalyticsConfig,
 	CommentConfig,
+	DeployConfig,
 	ExpressiveCodeConfig,
-  DeployConfig,
 	LicenseConfig,
 	NavBarConfig,
 	ProfileConfig,
@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	supportedLangs: [], // Use all supported language if empty. It can be sorted by array order
 	theme: {
 		hue: 75, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-    mode: "light",
+		mode: "light",
 	},
 	banner: {
 		enable: true,
@@ -118,8 +118,8 @@ export const commentConfig: CommentConfig = {
 
 // Site analytics config, only support GA4 for now
 export const analyticsConfig: AnalyticsConfig = {
-	enabled: false
-  // Example if using Google Analytics, don't forget to make `enabled` true
+	enabled: false,
+	// Example if using Google Analytics, don't forget to make `enabled` true
 	// google: {
 	//	 id: "G-xxx",
 	// },
@@ -127,7 +127,6 @@ export const analyticsConfig: AnalyticsConfig = {
 
 // Deploy configuration (Netlify, GitHub Pages, Coludflared, etc)
 export const deployConfig: DeployConfig = {
-  siteUrl: "https://fumika-demo.netlify.app",
-  baseUrl: "/",
-}
-
+	siteUrl: "https://fumika-demo.netlify.app",
+	baseUrl: "/",
+};
