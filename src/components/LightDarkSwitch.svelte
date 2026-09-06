@@ -15,7 +15,7 @@ let mode: LIGHT_DARK_MODE = $state(DEFAULT_MODE);
 onMount(() => {
 	mode = getStoredTheme();
 	const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
-	
+
 	const handleSchemeChange = () => {
 		applyThemeToDocument(mode);
 	};
@@ -32,7 +32,6 @@ function toggleScheme() {
 	mode = nextMode;
 	setTheme(nextMode);
 }
-
 </script>
 
 <div class="relative z-50" role="menu" tabindex="-1">

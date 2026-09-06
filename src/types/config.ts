@@ -30,7 +30,7 @@ export type SiteConfig = {
 
 	theme: {
 		hue: number;
-    mode: 'light' | 'dark';
+		mode: "light" | "dark";
 	};
 	banner: {
 		enable: boolean;
@@ -95,9 +95,7 @@ export type LicenseConfig = {
 	url: string;
 };
 
-export type LIGHT_DARK_MODE =
-	| typeof LIGHT_MODE
-	| typeof DARK_MODE;
+export type LIGHT_DARK_MODE = typeof LIGHT_MODE | typeof DARK_MODE;
 
 export type BlogPostData = {
 	body: string;
@@ -161,8 +159,8 @@ export type AnalyticsConfig = {
 };
 
 export type DeployConfig = {
-  siteUrl: string;
-  baseUrl: string;
-}
+	siteUrl: string;
+	baseUrl: string;
+};
 
 export type SupportedLang = (typeof ALL_LANGUAGES)[number];

@@ -5,7 +5,8 @@ export const PAGE_SIZE = 8;
 
 export const LIGHT_MODE = "light";
 export const DARK_MODE = "dark";
-export const DEFAULT_MODE: LIGHT_DARK_MODE = siteConfig.theme.mode === "light" ? LIGHT_MODE : DARK_MODE;
+export const DEFAULT_MODE: LIGHT_DARK_MODE =
+	siteConfig.theme.mode === "light" ? LIGHT_MODE : DARK_MODE;
 
 export const DEFAULT_HUE = siteConfig.theme.hue;
 
