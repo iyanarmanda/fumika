@@ -1,3 +1,4 @@
+/* BUG: Sometimes hue not implemented properly. The trigger is unknown */
 .gsc-main {
   gap: 1rem !important;
 }

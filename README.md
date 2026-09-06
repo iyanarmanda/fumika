@@ -26,6 +26,7 @@ Dark Mode:
 - [x] Smooth animations and page transitions
 - [x] Light / dark mode
 - [x] Responsive design
+- [x] Customizable theme, banner, and other components
 - [x] Search functionality with [Pagefind](https://pagefind.app/)
 - [x] [Markdown extended features](https://github.com/iyanarmanda/fumika?tab=readme-ov-file#-markdown-extended-syntax)
 - [x] Table of contents
