@@ -1,5 +1,6 @@
 # About
-This is the demo site for [Fumika](https://github.com/iyanarmanda/fumika). Inspired/forked from [Fuwari](https://github.com/saicaca/fuwari).
+
+This is the demo site for [Fumika](https://github.com/iyanarmanda/fumika). **Fumika** is heavyly modified from [Fuwari](https://github.com/saicaca/fuwari).
 
 ::github{repo="iyanarmanda/fumika"}
 
