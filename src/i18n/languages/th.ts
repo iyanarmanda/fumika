@@ -27,10 +27,6 @@ export const th: Translation = {
 
 	[Key.themeColor]: "สีของธีม",
 
-	[Key.lightMode]: "สว่าง",
-	[Key.darkMode]: "มืด",
-	[Key.systemMode]: "ตามระบบ",
-
 	[Key.more]: "ดูเพิ่ม",
 
 	[Key.author]: "ผู้แต่ง",

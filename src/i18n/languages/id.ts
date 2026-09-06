@@ -27,10 +27,6 @@ export const id: Translation = {
 
 	[Key.themeColor]: "Warna Tema",
 
-	[Key.lightMode]: "Terang",
-	[Key.darkMode]: "Gelap",
-	[Key.systemMode]: "Sistem",
-
 	[Key.more]: "Lainnya",
 
 	[Key.author]: "Penulis",

@@ -27,10 +27,6 @@ export const fa: Translation = {
 
 	[Key.themeColor]: "رنگ قالب",
 
-	[Key.lightMode]: "روشن",
-	[Key.darkMode]: "تیره",
-	[Key.systemMode]: "سیستم",
-
 	[Key.more]: "بیشتر",
 
 	[Key.author]: "نویسنده",
