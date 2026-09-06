@@ -2,6 +2,7 @@ import type {
 	AnalyticsConfig,
 	CommentConfig,
 	ExpressiveCodeConfig,
+  DeployConfig,
 	LicenseConfig,
 	NavBarConfig,
 	ProfileConfig,
@@ -123,3 +124,10 @@ export const analyticsConfig: AnalyticsConfig = {
 	//	 id: "G-xxx",
 	// },
 };
+
+// Deploy configuration (Netlify, GitHub Pages, Coludflared, etc)
+export const deployConfig: DeployConfig = {
+  siteUrl: "https://fumika-demo.netlify.app",
+  baseUrl: "/",
+}
+
