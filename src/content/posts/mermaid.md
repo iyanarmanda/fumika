@@ -789,10 +789,6 @@ timeline
 
 ## Sankey Diagram
 
-:::caution
-**Diagram dissapear on hover in Firefox**
-:::
-
 :::warning
 *Sankey Diagram is on experimental*
 :::
@@ -989,11 +985,13 @@ xychart
 
 ### Line Chart
 
-:::caution
-**Sometime Line Chart not rendering correctly in Firefox**
-:::
-
 ```mermaid
+---
+config:
+  themeVariables:
+    xyChart:
+      plotColorPalette: '#00FF00'
+---
 xychart
   title "Smallest AI models scoring above 60% on MMLU"
   x-axis "Date" ["Apr 2022", "Feb 2023", "Jul 2023", "Sep 2023", "Apr 2024"]
@@ -1474,10 +1472,6 @@ cynefin-beta
 > Source: [https://mermaid.js.org/syntax/cynefin.html](https://mermaid.js.org/syntax/cynefin.html)
 
 ## TreeView Diagram
-
-:::note
-Icons / logos not supported
-:::
 
 ```mermaid
 treeView-beta
