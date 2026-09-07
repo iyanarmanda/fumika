@@ -27,8 +27,6 @@ export const getStaticPaths = (async ({ paginate }) => {
 	}
 
 	return allPaths;
-	// const allBlogPosts = await getSortedPosts();
-	// return paginate(allBlogPosts, { pageSize: PAGE_SIZE });
 }) satisfies GetStaticPaths;
 // https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
 
