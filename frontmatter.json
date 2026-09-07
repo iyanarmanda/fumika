@@ -55,11 +55,6 @@
 					"title": "draft",
 					"name": "draft",
 					"type": "boolean"
-				},
-				{
-					"title": "language",
-					"name": "language",
-					"type": "string"
 				}
 			]
 		}
