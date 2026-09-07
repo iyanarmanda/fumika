@@ -1,6 +1,7 @@
 ---
 title: Mermaid Example
 published: 2026-07-13
+updated: 2026-09-08
 description: Embed Mermaid chart and diagram in Markdown.
 tags: [Markdown, Blogging, Demo]
 category: Examples

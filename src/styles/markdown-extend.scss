@@ -312,3 +312,25 @@ a.card-github.fetch-error {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
 }
+
+div.dir-rtl {
+  display: block;
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+}
+
+div.dir-ltr {
+  display: block;
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+
+span.dir-rtl {
+  text-align: right;
+}
+
+span.dir-ltr {
+  text-align: left;
+}

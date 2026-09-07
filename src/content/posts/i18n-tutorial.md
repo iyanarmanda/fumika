@@ -83,6 +83,6 @@ src/content/spec/
 ---
 
 :::note
-rtl (*right to left*) system for **Persian** (Farsi) translation **not set up properly**.
+rtl (*right to left*) system for **Persian** (Farsi) translation is **under development**.
 :::
 
