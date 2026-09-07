@@ -13,8 +13,6 @@ Please keep each pull request focused on a single purpose. Avoid mixing unrelate
 
 Please use the [Conventional Commits](https://www.conventionalcommits.org/) format for your commit messages whenever possible. This keeps our history clear and consistent.
 
-Before starting code, please run prepare script for automatically Biome formatting (`pnpm format`) on git commit and prevent error astro error (`pnpm check`) and TypeScript error (`pnpm type-check`) on git push.
+Before starting code, please run prepare script (`pnpm local-prepare`) to initiate tools like Husky.
+Before run git commit, run error checking script for Astro, Typescript, and Svelte (`pnpm check`) or usign `pnpm astro-check`, `pnpm type-check`, `pnpm svelte-check` separately. Also run Biome formatting (`pnpm format`) and linting (`pnpm lint`) before git commit and push.
 
-```bash
-pnpm local-prepare
-```
