@@ -10,6 +10,7 @@
 		"ignoreUnknown": false,
 		"includes": [
 			"**",
+			"!**/src/**/*.css",
 			"!!**/src/public",
 			"!!**/dist",
 			"!!**/node_modules",
@@ -26,6 +27,9 @@
 		"enabled": true,
 		"rules": {
 			"preset": "recommended",
+			"a11y": {
+				"noSvgWithoutTitle": "warn"
+			},
 			"style": {
 				"noParameterAssign": "error",
 				"useAsConstAssertion": "error",
@@ -48,10 +52,7 @@
 	"css": {
 		"parser": {
 			"tailwindDirectives": true
-		},
-    "formatter": {
-      "enabled": false
-    }
+		}
 	},
 	"overrides": [
 		{

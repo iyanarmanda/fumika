@@ -8,6 +8,17 @@ import type { GetSortedPosts } from "@/types/config";
 
 const CONFIG_BASE_LANG = siteConfig.lang.replace("_", "-");
 
+export type EnrichedPost = CollectionEntry<"posts"> & {
+	data: CollectionEntry<"posts">["data"] & {
+		actualLang: string;
+		isFallback: boolean;
+		nextSlug?: string;
+		nextTitle?: string;
+		prevSlug?: string;
+		prevTitle?: string;
+	};
+};
+
 export function normalizeLangTag(lang: string): string {
 	return lang.toLowerCase().replace("_", "-");
 }
@@ -35,7 +46,9 @@ function parsePostId(id: string) {
 	};
 }
 
-async function getResolvedPostsForLang(targetLang?: string) {
+async function getResolvedPostsForLang(
+	targetLang?: string,
+): Promise<EnrichedPost[]> {
 	const activeLang = normalizeLangTag(targetLang || CONFIG_BASE_LANG);
 
 	const defaultLang = normalizeLangTag(DEFAULT_LANG);
@@ -54,7 +67,7 @@ async function getResolvedPostsForLang(targetLang?: string) {
 		groups[logicalSlug].push(post);
 	}
 
-	const resolvedPosts: CollectionEntry<"posts">[] = [];
+	const resolvedPosts: EnrichedPost[] = [];
 
 	for (const logicalSlug in groups) {
 		const variants = groups[logicalSlug];
@@ -83,7 +96,7 @@ async function getResolvedPostsForLang(targetLang?: string) {
 		if (chosen) {
 			const { lang: actualLang } = parsePostId(chosen.id);
 
-			const enrichedPost = {
+			const enrichedPost: EnrichedPost = {
 				...chosen,
 				id: logicalSlug,
 				data: {
@@ -117,6 +130,7 @@ export async function getSortedPosts(lang?: string): Promise<GetSortedPosts[]> {
 
 	return sorted;
 }
+
 export type PostForList = {
 	slug: string;
 	data: Omit<CollectionEntry<"posts">["data"], "category"> & {
@@ -125,6 +139,7 @@ export type PostForList = {
 		isFallback: boolean;
 	};
 };
+
 export async function getSortedPostsList(
 	lang?: string,
 ): Promise<PostForList[]> {
@@ -138,8 +153,8 @@ export async function getSortedPostsList(
 			data: {
 				...restData,
 				category: category ?? undefined,
-				actualLang: (post.data as any).actualLang,
-				isFallback: (post.data as any).isFallback,
+				actualLang: post.data.actualLang,
+				isFallback: post.data.isFallback,
 			},
 		};
 	});
