@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist && playwright install chromium",
 		"preview": "astro preview",
 		"astro": "astro",
 		"check": "pnpm run astro-check && pnpm run type-check && pnpm run svelte-check",
@@ -17,7 +17,6 @@
 		"test": "vitest",
 		"test-coverage": "vitest run --coverage",
 		"preinstall": "npx only-allow pnpm",
-		"prepare": "pnpm playwright install",
 		"local-prepare": "husky"
 	},
 	"dependencies": {
@@ -44,7 +43,7 @@
 		"astro-expressive-code": "^0.44.2",
 		"astro-icon": "^1.2.0",
 		"hastscript": "^9.0.1",
-		"katex": "^0.18.5",
+		"katex": "^0.18.6",
 		"markdown-it": "^15.0.1",
 		"mdast-util-to-string": "^4.0.0",
 		"overlayscrollbars": "^2.16.0",
@@ -62,7 +61,7 @@
 		"remark-math": "^6.0.0",
 		"remark-sectionize": "^2.1.0",
 		"sanitize-html": "^2.17.7",
-		"sass": "^1.103.1",
+		"sass": "^1.104.0",
 		"sharp": "^0.35.4",
 		"svelte": "^5.57.0",
 		"tailwindcss": "^4.3.3",
@@ -80,10 +79,10 @@
 		"@vitest/coverage-v8": "4.1.11",
 		"husky": "^9.1.7",
 		"lint-staged": "^17.5.0",
-		"playwright": "^1.62.1",
+		"playwright": "^1.63.0",
 		"svelte-check": "^4.7.6",
 		"typescript": "^5.9.3",
 		"vitest": "^4.1.11"
 	},
-	"packageManager": "pnpm@9.14.4"
+	"packageManager": "pnpm@11.25.0"
 }
