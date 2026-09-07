@@ -1,7 +1,7 @@
 ---
 title: Markdown Extended Features
 published: 2024-05-01
-updated: 2024-11-29
+updated: 2026-09-09
 description: 'Read more about Markdown features in Fumika'
 image: ''
 tags: [Demo, Example, Markdown, Fumika]
@@ -94,7 +94,11 @@ The content :spoiler[is hidden **ayyy**]!
 
 ```
 
-## Other Features
+## Typography Features
+
+:::warning
+These feature below not supported in **Frontmatter Post** and **TOC**
+:::
 
 ### Ruby Text
 
@@ -112,7 +116,73 @@ Welcome to {Tokyo}^(とうきょう)!
 He is a {rookie}^(beginner) in this baseball team.
 ```
 
-:::warning
-Ruby Text not supported on **Frontmatter Post** and **TOC**
+### Text Direction
+
+Controlling text direction (RTL/LTR) within your content.
+
+#### Inline Usage:
+
+This is an English sentence containing an inline Persian phrase: :rtl[سلام دنیا] in the middle of a text.
+
+---
+
+:::rtl
+این یک متن فارسی است که یک عبارت انگلیسی :ltr[Hello World] در وسط آن قرار دارد
 :::
+
+```markdown
+This is an English sentence containing an inline Persian phrase: :rtl[سلام دنیا] in the middle of a text.
+
+این یک متن فارسی است که یک عبارت انگلیسی :ltr[Hello World] در وسط آن قرار دارد
+```
+
+#### Single-Line Block Usage:
+
+::rtl[این یک خط متن کامل به زبان فارسی است.]
+
+---
+
+::ltr[This is a full single-line sentence explicitly rendered as LTR.]
+
+```markdown
+::rtl[این یک خط متن کامل به زبان فارسی است.]
+
+::ltr[This is a full single-line sentence explicitly rendered as LTR.]
+```
+
+#### Container Block Usage:
+
+:::rtl
+**عنوان فارسی**
+
+این یک بلوک کامل شامل چند پاراگراف به زبان فارسی است.
+
+- آیتم اول
+- آیتم دوم
+:::
+
+---
+
+:::ltr
+**English Sub-section**
+
+This whole block is explicitly forced to be LTR inside an RTL document.
+:::
+
+```markdown
+:::rtl
+**عنوان فارسی**
+
+این یک بلوک کامل شامل چند پاراگراف به زبان فارسی است.
+
+- آیتم اول
+- آیتم دوم
+:::
+
+:::ltr
+**English Sub-section**
+
+This whole block is explicitly forced to be LTR inside an RTL document.
+:::
+```
 

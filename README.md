@@ -44,6 +44,7 @@ In addition to Astro's default support for GitHub Flavored Markdown ([Docs](http
 - GitHub repository cards ([Preview and Usage](https://fumika-demo.netlify.app/posts/markdown-extended/#github-repository-cards))
 - Enhanced code blocks with Expressive Code ([Preview](https://fumika-demo.netlify.app/posts/expressive-code/) / [Docs](https://expressive-code.com/)) 
 - Mermaid Diagram ([Preview](https://fumika-demo.netlify.app/posts/mermaid/) / [Docs](https://mermaid.js.org/))
+- Typography features ([Preview and Usage](https://fumika-demo.netlify.app/posts/markdown-extend/#typography-features))
 
 ## Getting Started
 

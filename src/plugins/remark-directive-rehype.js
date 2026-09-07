@@ -9,6 +9,8 @@ export function parseDirectiveNode() {
 				node.type === "leafDirective" ||
 				node.type === "textDirective"
 			) {
+				if (node.name === "rtl" || node.name === "ltr") return;
+
 				// biome-ignore lint/suspicious/noAssignInExpressions: <check later>
 				const data = node.data || (node.data = {});
 				node.attributes = node.attributes || {};
