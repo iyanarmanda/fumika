@@ -19,7 +19,7 @@ Dark Mode:
 - [Astrojs v7](https://astro.build)
 - [Svelte v5](https://svelte.dev/)
 - [Tailwind CSS v4](https://tailwindcss.com) 
-- [SCSS v1](https://sass-lang.com/)
+- [SCSS](https://sass-lang.com/)
 
 ## Features
 
@@ -35,6 +35,8 @@ Dark Mode:
 - [x] i18n translation
 - [x] Comment feature with [Giscus](https://giscus.app/)
 - [x] Google Analytics using [Partytown](https://partytown.qwik.dev/)
+
+*See upcoming features in [ROADMAP](https://github.com/iyanarmanda/fumika/blob/main/ROADMAP.md)
 
 ### Markdown Extended Features
 
