@@ -1,7 +1,7 @@
 {
 	"name": "fumika",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"scripts": {
 		"dev": "astro dev",
 		"build": "playwright install chromium && astro build && pagefind --site dist",
