@@ -4,7 +4,7 @@
 	"version": "0.1.0",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "playwright install chromium && astro build && pagefind --site dist",
+		"build": "astro build && pagefind --site dist",
 		"preview": "astro preview",
 		"astro": "astro",
 		"check": "pnpm run astro-check && pnpm run type-check && pnpm run svelte-check",
@@ -17,7 +17,8 @@
 		"test": "vitest",
 		"test-coverage": "vitest run --coverage",
 		"preinstall": "npx only-allow pnpm",
-		"local-prepare": "husky"
+		"postinstall": "playwright install chromium",
+		"prepare": "husky"
 	},
 	"dependencies": {
 		"@astrojs/markdown-remark": "^7.3.0",
