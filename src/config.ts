@@ -14,7 +14,21 @@ export const siteConfig: SiteConfig = {
 	title: "Fumika",
 	subtitle: "Demo Site",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
-	supportedLangs: [], // Use all supported language if empty. It can be sorted by array order
+	// Leave it empty `[]` if want disable multi-languages. It can be sorted by array order
+	supportedLangs: [
+		"en",
+		"es",
+		"fa",
+		"fr",
+		"id",
+		"ja",
+		"ko",
+		"th",
+		"tr",
+		"vi",
+		"zh_CN",
+		"zh_TW",
+	],
 	theme: {
 		hue: 75, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		mode: "light",

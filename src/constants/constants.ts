@@ -43,7 +43,7 @@ const baseLangs =
 		? siteConfig.supportedLangs.map(
 				(lang) => lang.replace("_", "-") as SupportedLang,
 			)
-		: [...ALL_LANGUAGES];
+		: [];
 
 const activeConfigLang = siteConfig.lang.replace("_", "-") as SupportedLang;
 
