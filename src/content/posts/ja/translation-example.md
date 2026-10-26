@@ -1,4 +1,5 @@
 ---
+
 title: Translation Content (ja)
 published: 2026-07-22
 description: A simple example of a i18n translation in blog posts.
@@ -7,7 +8,7 @@ category: Examples
 draft: false
 ---
 
-*Translation: Japan*
+_Translation: Japan_
 
 ## 食品施設登録に関する暫定最終規則
 

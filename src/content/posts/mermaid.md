@@ -1,4 +1,5 @@
 ---
+
 title: Mermaid Example
 published: 2026-07-13
 updated: 2026-09-08
@@ -228,7 +229,7 @@ erDiagram
   "**MANUFACTURER**" only one to zero or more CAR : makes
 ```
 
->Source: [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
+> Source: [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
 
 ## User Journey Diagram
 
@@ -623,7 +624,7 @@ gitGraph
 ## C4 Diagram
 
 :::warning
-*C4 is on experimental*
+_C4 is on experimental_
 :::
 
 ```mermaid
@@ -701,7 +702,7 @@ C4Context
 ## Mindmap
 
 :::warning
-*Mindmap is on experimental*
+_Mindmap is on experimental_
 :::
 
 ```mermaid
@@ -749,7 +750,7 @@ mindmap
 ## Timeline Diagram
 
 :::warning
-*Timeline Diagram is on experimental*
+_Timeline Diagram is on experimental_
 :::
 
 ```mermaid
@@ -791,7 +792,7 @@ timeline
 ## Sankey Diagram
 
 :::warning
-*Sankey Diagram is on experimental*
+_Sankey Diagram is on experimental_
 :::
 
 ```mermaid
@@ -1293,7 +1294,7 @@ treemap-beta
 ## Venn Diagram
 
 :::warning
-*Venn Diagram is beta version*
+_Venn Diagram is beta version_
 :::
 
 ```mermaid
@@ -1323,7 +1324,7 @@ venn-beta
 ## Ishikawa Diagram
 
 :::warning
-*Ishikawa Diagram is beta version*
+_Ishikawa Diagram is beta version_
 :::
 
 ```mermaid
@@ -1495,4 +1496,3 @@ treeView-beta
 ```
 
 > Source: [https://mermaid.js.org/syntax/treeView.html](https://mermaid.js.org/syntax/treeView.html)
-

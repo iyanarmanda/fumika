@@ -1,4 +1,5 @@
 ---
+
 title: Mermaid Testing
 published: 2026-07-14
 description: Mermaid embed testing in Markdown.
@@ -897,7 +898,7 @@ gitGraph
 
 Doc: [https://mermaid.js.org/syntax/c4.html](https://mermaid.js.org/syntax/c4.html)
 
-*It's on experimental*
+_It's on experimental_
 
 ### C4Context
 
@@ -1105,7 +1106,7 @@ C4Deployment
 
 Doc: [https://mermaid.js.org/syntax/mindmap.html](https://mermaid.js.org/syntax/mindmap.html)
 
-*It's on experimental*
+_It's on experimental_
 
 ```mermaid
 mindmap
@@ -1131,7 +1132,7 @@ mindmap
 
 Doc: [https://mermaid.js.org/syntax/timeline.html](https://mermaid.js.org/syntax/timeline.html)
 
-*It's on experimental*
+_It's on experimental_
 
 ```mermaid
 timeline
@@ -1157,7 +1158,7 @@ Doc: [https://mermaid.js.org/syntax/zenuml.html](https://mermaid.js.org/syntax/z
 
 Doc: [https://mermaid.js.org/syntax/sankey.html](https://mermaid.js.org/syntax/sankey.html)
 
-*It's on experimental*
+_It's on experimental_
 
 ```mermaid
 ---
@@ -1506,7 +1507,7 @@ eventmodeling
 
 Doc: [https://mermaid.js.org/syntax/treemap.html](https://mermaid.js.org/syntax/treemap.html)
 
-*It's Beta version*
+_It's Beta version_
 
 ```mermaid
 ---
@@ -1529,7 +1530,7 @@ treemap-beta
 
 Doc: [https://mermaid.js.org/syntax/venn.html](https://mermaid.js.org/syntax/venn.html)
 
-*It's Beta version*
+_It's Beta version_
 
 ```mermaid
 venn-beta
@@ -1546,7 +1547,7 @@ venn-beta
 
 Doc: [https://mermaid.js.org/syntax/ishikawa.html](https://mermaid.js.org/syntax/ishikawa.html)
 
-*It's Beta version*
+_It's Beta version_
 
 ```mermaid
 ishikawa-beta

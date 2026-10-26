@@ -1,4 +1,5 @@
 ---
+
 title: Translation Content (en)
 published: 2026-07-22
 description: A simple example of a i18n translation in blog posts.
@@ -7,7 +8,7 @@ category: Examples
 draft: false
 ---
 
-*Translation: English*
+_Translation: English_
 
 ## Registration of Food Facilities Interim Final Rule:
 
