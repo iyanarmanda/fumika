@@ -146,11 +146,11 @@ export const navBarConfig: NavBarConfig = {
 
 Custom navigation bar link attributes:
 
-| Attribute | Description                                                                                                                     |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| name      | Displayed name in navbar                                                                                                        |
-| url       | URL navigation of external or internal links.<br/>Internal links should not include the base path, as it is automatically added |
-| external  | If it set to `true`, it will show an external link icon and open in a new tab                                                   |
+| Attribute  | Description                                                                                                                     |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| name       | Displayed name in navbar                                                                                                        |
+| url        | URL navigation of external or internal links.<br/>Internal links should not include the base path, as it is automatically added |
+| external   | If it set to `true`, it will show an external link icon and open in a new tab                                                   |
 
 This is how navigation links that only contain _Home_, _Archive_, and _About_ look like:
 
