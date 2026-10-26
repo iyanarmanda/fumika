@@ -1,6 +1,6 @@
 // See https://biomejs.dev/guides/configure-biome/ for more information about Biome configuration.
 {
-	"$schema": "https://biomejs.dev/schemas/2.6.2/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.6.3/schema.json",
 	"vcs": {
 		"enabled": false,
 		"clientKind": "git",
