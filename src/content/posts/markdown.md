@@ -1,4 +1,5 @@
 ---
+
 title: Markdown Example
 published: 2023-10-01
 updated: 2026-07-16
@@ -14,7 +15,6 @@ Paragraphs are separated by a blank line.
 
 2nd paragraph. _Italic_, **bold**, and `monospace`. Itemized lists
 look like:
-
 - this one
 - that one
 - the other one
@@ -42,12 +42,11 @@ This is example embed image in public directory:
 ![image description](/media/images/<filename>)
 ```
 
-Or use image from another site using url. 
+Or use image from another site using url.
 
 ## An h2 header
 
 Here's a numbered list:
-
 1. first item
 2. second item
 3. third item
@@ -82,16 +81,14 @@ for i in range(10):
 ### An h3 header
 
 Now a nested list:
-
 1. First, get these ingredients:
-
-    - carrots
-    - celery
-    - lentils
+   - carrots
+     - celery
+       - lentils
 
 2. Boil some water.
 
-3. Dump everything in the pot and follow
+3.  Dump everything in the pot and follow
     this algorithm:
 
         find wooden spoon
@@ -115,14 +112,14 @@ doc](#an-h2-header). Here's a footnote [^1].
 
 Tables can look like this:
 
-| Feature Name | Status | Category | Complexity | Priority | Dependencies | Owner | Last Updated | ETA | Risk Level | Est. Cost |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Authentication System** | In Progress | Security | High | P0 | DB, Redis | Admin Team | 2026-07-16 | 2026-08-01 | Low | $500 |
-| **API Rate Limiting** | Pending | Performance | Medium | P1 | Redis | DevOps | 2026-07-10 | 2026-08-15 | Medium | $200 |
-| **Dark Mode UI** | Testing | Frontend | Low | P2 | Design System | UX/UI Team | 2026-07-15 | 2026-07-20 | Low | $100 |
-| **Analytics Dashboard** | Backlog | Reporting | High | P3 | Data Warehouse | Data Team | 2026-07-01 | 2026-09-01 | High | $1200 |
-| **User Notifications** | Completed | Communication | Medium | P1 | WebSocket | Backend Team | 2026-06-25 | 2026-06-30 | Medium | $300 |
-| **Payment Gateway** | Review | Finance | High | P0 | Stripe API | Finance Team | 2026-07-17 | 2026-08-10 | Critical | $800 |
+| Feature Name              | Status      | Category      | Complexity | Priority | Dependencies   | Owner        | Last Updated | ETA        | Risk Level | Est. Cost |
+| :------------------------ | :---------- | :------------ | :--------- | :------- | :------------- | :----------- | :----------- | :--------- | :--------- | :-------- |
+| **Authentication System** | In Progress | Security      | High       | P0       | DB, Redis      | Admin Team   | 2026-07-16   | 2026-08-01 | Low        | $500      |
+| **API Rate Limiting**     | Pending     | Performance   | Medium     | P1       | Redis          | DevOps       | 2026-07-10   | 2026-08-15 | Medium     | $200      |
+| **Dark Mode UI**          | Testing     | Frontend      | Low        | P2       | Design System  | UX/UI Team   | 2026-07-15   | 2026-07-20 | Low        | $100      |
+| **Analytics Dashboard**   | Backlog     | Reporting     | High       | P3       | Data Warehouse | Data Team    | 2026-07-01   | 2026-09-01 | High       | $1200     |
+| **User Notifications**    | Completed   | Communication | Medium     | P1       | WebSocket      | Backend Team | 2026-06-25   | 2026-06-30 | Medium     | $300      |
+| **Payment Gateway**       | Review      | Finance       | High       | P0       | Stripe API     | Finance Team | 2026-07-17   | 2026-08-10 | Critical   | $800      |
 
 </br>
 
@@ -181,7 +178,7 @@ Here's a "line block":
 
 and images can be specified like so:
 
-[//]: # (![example image]&#40;./demo-banner.webp "An exemplary image"&#41;)
+[//]: # '![example image]&#40;./demo-banner.webp "An exemplary image"&#41;'
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
@@ -192,8 +189,8 @@ $$
 \begin{equation*}
 \pi
 =3.1415926535
- \;8979323846\;2643383279\;5028841971\;6939937510\;5820974944
- \;5923078164\;0628620899\;8628034825\;3421170679\;\ldots
+\;8979323846\;2643383279\;5028841971\;6939937510\;5820974944
+\;5923078164\;0628620899\;8628034825\;3421170679\;\ldots
 \end{equation*}
 $$
 

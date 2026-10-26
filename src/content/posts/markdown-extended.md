@@ -1,4 +1,5 @@
 ---
+
 title: Markdown Extended Features
 published: 2024-05-01
 updated: 2026-09-09
@@ -6,11 +7,12 @@ description: 'Read more about Markdown features in Fumika'
 image: ''
 tags: [Demo, Example, Markdown, Fumika]
 category: 'Examples'
-draft: false 
+draft: false
 ---
 
 ## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+
+You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.
 
 ::github{repo="Fabrizz/MMM-OnSpotify"}
 
@@ -91,7 +93,6 @@ The content :spoiler[is hidden **ayyy**]!
 
 ```markdown
 The content :spoiler[is hidden **ayyy**]!
-
 ```
 
 ## Typography Features
@@ -103,7 +104,6 @@ These feature below not supported in **Frontmatter Post** and **TOC**
 ### Ruby Text
 
 Add small characters above the text. For example:
-
 - Welcome to {Tokyo}^(とうきょう)!
 - {[漢][字]}^([かん][じ]) are Japanese characters.
 - He is a {rookie}^(beginner) in this baseball team.
@@ -156,10 +156,9 @@ This is an English sentence containing an inline Persian phrase: :rtl[سلام �
 **عنوان فارسی**
 
 این یک بلوک کامل شامل چند پاراگراف به زبان فارسی است.
-
 - آیتم اول
 - آیتم دوم
-:::
+  :::
 
 ---
 
@@ -174,10 +173,9 @@ This whole block is explicitly forced to be LTR inside an RTL document.
 **عنوان فارسی**
 
 این یک بلوک کامل شامل چند پاراگراف به زبان فارسی است.
-
 - آیتم اول
 - آیتم دوم
-:::
+  :::
 
 :::ltr
 **English Sub-section**
@@ -185,4 +183,3 @@ This whole block is explicitly forced to be LTR inside an RTL document.
 This whole block is explicitly forced to be LTR inside an RTL document.
 :::
 ```
-

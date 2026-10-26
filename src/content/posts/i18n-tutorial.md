@@ -1,4 +1,5 @@
 ---
+
 title: i18n Translation Tutorial
 published: 2026-07-24
 description: A guide to create post with i18n translation.
@@ -83,6 +84,5 @@ src/content/spec/
 ---
 
 :::note
-rtl (*right to left*) system for **Persian** (Farsi) translation is **under development**.
+rtl (_right to left_) system for **Persian** (Farsi) translation is **under development**.
 :::
-
