@@ -15,7 +15,8 @@
 			"!!**/dist",
 			"!!**/node_modules",
 			"!!**/.husky",
-			"!!**/.astro"
+			"!!**/.astro",
+			"!!**/src/**/*.md"
 		]
 	},
 	"formatter": {
